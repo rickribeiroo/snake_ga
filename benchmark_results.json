@@ -1,0 +1,51 @@
+{
+    "model_a": {
+        "name": "checkpoints/best_overall.npy",
+        "num_games": 100,
+        "elapsed_seconds": 62.39,
+        "fps_simulated": 18651.1,
+        "score_mean": 183.3,
+        "score_std": 37.57,
+        "score_median": 199.0,
+        "score_min": 1,
+        "score_max": 204,
+        "score_p25": 177.0,
+        "score_p75": 200.0,
+        "steps_mean": 11636.6,
+        "steps_median": 12085.0,
+        "steps_min": 235,
+        "steps_max": 14457,
+        "steps_per_apple": 63.5,
+        "death_counts": {
+            "self_collision": 10,
+            "wall_collision": 86,
+            "starvation": 4,
+            "won": 0
+        },
+        "death_pct": {
+            "self_collision": 10.0,
+            "wall_collision": 86.0,
+            "starvation": 4.0,
+            "won": 0.0
+        },
+        "buckets": {
+            "0 - 10": 1,
+            "11 - 25": 3,
+            "26 - 40": 0,
+            "41 - 55": 0,
+            "56 - 70": 0,
+            "71+": 96
+        },
+        "buckets_pct": {
+            "0 - 10": 1.0,
+            "11 - 25": 3.0,
+            "26 - 40": 0.0,
+            "41 - 55": 0.0,
+            "56 - 70": 0.0,
+            "71+": 96.0
+        },
+        "shield_active": false,
+        "shield_interventions_mean": 0.0,
+        "shield_interventions_max": 0
+    }
+}

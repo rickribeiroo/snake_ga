@@ -1,0 +1,14 @@
+# Dependências essenciais do Snake GA
+numpy>=1.26.0
+pygame>=2.5.0
+matplotlib>=3.8.0
+tqdm>=4.65.0
+numba>=0.59.0
+
+# PyTorch:
+# Para máquinas com GPU NVIDIA (recomendado para treino rápido):
+# pip install torch --index-url https://download.pytorch.org/whl/cu124
+#
+# Para máquinas sem GPU dedicada (apenas CPU):
+# pip install torch
+torch>=2.2.0
